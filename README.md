@@ -42,6 +42,15 @@ pnpm start
 4. The user's information and access token will be retrieved and the user will be added to the Discord server specified in the `config.ts` file.
 5. The user will be redirected to the /success endpoint, where they will see a "Success!" message.
 
+## Deployment
+
+To deploy this project to Cloudflare Workers run
+
+```bash
+  npm/yarn/pnpm run deploy
+```
+
+
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and create a pull request. All contributions are welcome!
